@@ -11,7 +11,7 @@ article {
   padding: 10px;
 }
 section h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-family: Arial, "Times New Roman";
 }
 header {
@@ -65,4 +65,9 @@ header {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+.month-name {
+  font-size: 34px;
+  color: blue;
+  font-weight: bold;
 }
