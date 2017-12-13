@@ -1,2 +1,2 @@
 # Dexter2772.github.io
-GitHub Pages Tutorial
+My journal entries for the fall semester of 2017 - CSET.
