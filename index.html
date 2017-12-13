@@ -11,14 +11,23 @@
     <header>
       <h1>Danny Hernandez CSET Blog</h1>
     </header>
-    <h1>Weekly Blog</h1>
-    <article class="September">
+    <h1 class="journal-title" id="top">Weekly Blog</h1>
+    <div class="dropdown">
+      <button class="dropbtn">Blog Posts</button>
+      <div class="dropdown-content">
+        <a href="#september">September</a>
+        <a href="#october">October</a>
+        <a href="#november">November</a>
+        <a href="#december">December</a>
+      </div>
+    </div>
+    <article class="September" id="september">
       <section class="blog-post-one">
         <h2>Blog Post 1 - Wednesday, September 27, 2017</h2>
         <p>This week in class we held a workshop where each student picked a CSS property and showed the rest of the class how to use it correctly. I learned about a lot of different CSS properties and the one that I feel really surprised me was the animation property. This property was very neat because it got some elements on the page to move around very smoothly. On Monday and Tuesday we worked on the "creating a webpage from design" workshop. When we completed it I felt like I learned a lot on how to actually code the site in HTML and CSS. I'm hoping we will learn to create responsive websites soon becuase that is pretty much a necessity in todays environment where you have devices of different sizes browsing the web. And I hope we continue to learn more about correctly formating the structure of a webpage.</p>
       </section>
     </article>
-    <article class="October">
+    <article class="October" id="october">
       <section class="blog-post-two">
         <h2>Blog Post 2 - Sunday, October 8, 2017</h2>
         <p>This week in class we really started to get into responsive web design. I learned that this is very important as the number of people who use their phones to browse the web has overtaken the number who use their laptops/desktops. This is why it is important to ensure that the website looks just as good on a phone as it will on computer screen. We also started to learn about how you add media queries to your css file in order to apply a certain style set when the specifications of the query are met or not met. I got to experiment with the flexbox property for laying out my webpage and now have a better understanding of it. I am hoping to use this information that I learned in order to start improving all the projects that I make by using flexbox instead of non responsive CSS styles. And next week we are going to start learning bootstrap.</p>
@@ -31,17 +40,17 @@
         <h2>Blog Post 4 - Sunday, October 22, 2017</h2>
         <p>This week we continued to work on our project for the Lancaster Tech Pages. I mostly did media queries this week because some of them were not working properly and the content exceeded the container when it shifted. Other problems I was having when getting the “hamburger bar” to show up when it got to mobile view. I found a “hamburger bar” that uses pure HTML/CSS instead of using JavaScript. This helped because I could set it to “display: none” when it got to desktop view. This project taught me a lot about media queries and using SASS. I now know how much better it is to use SASS because it is so easy to break your SASS files into features like header and footer. I am now prepared to start using more of SASS’ features in my projects for the future. Now that I completed my projects I have the habit of checking every website I go to and see if it is responsive or not. And I feel that I learned a lot on my own pace by experimenting with different SASS features, and different sizes of media queries.</p>
       </section>
-      <section class="blog-post-four">
+      <section class="blog-post-five">
         <h2>Blog Post 5- Sunday, October 29, 2017</h2>
         <p>This week we mostly started learning about JavaScript. We also had a test on Friday that was about retrospectives and our past project. We did not have class on Tuesday. I learned a few new things about JavaScript such as it not being a strongly typed language where you must define the type before you use it. Other languages like Java require you to say what type it is before you make the variable. We learned about data types like null, undefined, Boolean, etc. We also got started working on a new project which is the PA open source website. This website is going to require us to make 5 websites that use HTML, CSS/SASS, and JavaScript. The project is the first one that will utilize JavaScript. So far in my project I have added all the HTML skeletons to the web pages and a bit of CSS/SASS too. And I presented my second tech talk on Friday.</p>
       </section>
     </article>
     <article class="November">
-      <section class="blog-post-five">
+      <section class="blog-post-six" id="november">
         <h2>Blog Post 6 - Sunday, November 5, 2017</h2>
         <p>This week we continued to work on are projects most of the week. We also did a lot of JavaScript workshops and learned more about the language. The topics covered were JavaScript primitives, loops, functions, etc. The things we learned were used in practice because we had to solve many different problems using JavaScript. A speaker talked to our class on Friday and talked to us about his career path and former companies he had worked for. Most of the week consisted of using class time to work on our group projects and to continue to learn and practice JavaScript.</p>
       </section>
-      <section class="blog-post-six">
+      <section class="blog-post-seven">
         <h2>Blog Post 7 - Sunday, November 11, 2017</h2>
         <p>This week we learned a lot of things about JavaScript. We also got in pseudo coding which allows us to write how the program will work step by step before coding anything. This was helpful in finding what kind of loops are data structures we should use to get the correct solution. On Friday we had a speaker talk to our class and we also worked on our projects. Other days of the week also allowed us to work on our projects. We did a bunch of practice problems for JavaScript that really caused us to really think creatively to solve the problem. This helped me become more familiar with the “for” loop. And this week had a few lectures throughout the week.</p>
       </section>
@@ -55,15 +64,22 @@
       </section>
     </article>
     <article class="December">
-      <section class="blog-post-nine">
+      <section class="blog-post-ten" id="december">
         <h2>Blog Post 10 - Sunday, December 3, 2017</h2>
         <p>This week we had Monday off so we didn't do anything that day. On Tuesday we talked about how working remotely worked for us when we tried it. Then we continued to work on our projects. On Wednesday and Thursday we kept working on our final project. We completed all the web pages and added the necessary jQuery. And on Friday we started to plan the next part of our project and got started on some of the parts like the login page and popups. We got a lot of the errors and spelling mistakes that we made fixed on Friday. This helped make sure our code worked before we started working on the next part of the project.</p>
       </section>
-      <section class="blog-post-nine">
-        <h2>Blog Post 11 - Sunday, December 10, 2017 - Final</h2>
+      <section class="blog-post-eleven">
+        <h2>Blog Post 11 - Sunday, December 10, 2017</h2>
         <p>This week we continued to work on our project. The things we worked on was mostly jQuery and minor changes that had to be made to the webpages. We are still testing on different browsers but had to fix a few things we forgot to add to our project. Next week we will continue to make any minor changes we find and cross browser test it. The jQuery that we need to add needs to be checked on every page to make sure their are no loopholes that users can use. For example, if a user enters the wrong username and password combo and still gets into the home page. And we made a lot of changes to our SASS files in order to make the code cleaner and more organized. </p>
+      </section>
+      <section class="blog-post-twelve">
+        <h2>Blog Post 12 - Wednesday, December 13, 2017</h2>
+        <p>This week we continued working on our project and making minor changes to things that needed fixed. I will be leaving for vacation on Friday so I will present my project with my group on Thursday. We made some changes to the gradients that were not working correctly. And I cleaned up the code by adding/getting rid of white space where needed. I also completed the group evaluation and I am adding the last parts to our project. And some of the cross browser testing showed changes that needed to be made and we made the minor fixes. And we will be turning in our projects this Thursday. </p>
       </section>
     </article>
   </div>
+  <footer>
+    <a href="#top">Back to top</a>
+  </footer>
 </body>
 </html>
