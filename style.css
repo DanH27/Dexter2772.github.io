@@ -1,0 +1,17 @@
+#balloon {
+	position: relative;
+}
+
+img {
+  border-radius: 50%;
+}
+.game-title {
+	color: red;
+	font-size: 24px;
+}
+.bold {
+	font-weight: bold;
+}
+.instructions {
+	color: red;
+}
